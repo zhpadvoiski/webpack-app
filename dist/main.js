@@ -1,0 +1,1 @@
+(()=>{var o={708:o=>{o.exports={hello:function(){console.log("Hello world!")}}}},r={};function e(t){var l=r[t];if(void 0!==l)return l.exports;var n=r[t]={exports:{}};return o[t](n,n.exports,e),n.exports}(()=>{const{hello:o}=e(708);o()})()})();
