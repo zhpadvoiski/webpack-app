@@ -1,10 +1,12 @@
 require("./hello-world.scss");
 
 class HelloWorldButton {
+  helloWorldButtonStyle = "hello-world-button";
+
   render() {
     const button = document.createElement("button");
     button.innerText = "Hello world";
-    button.classList.add("hello-world-button");
+    button.classList.add(this.helloWorldButtonStyle);
 
     const body = document.querySelector("body");
 
